@@ -1,0 +1,46 @@
+# Local datasets and generated metrics
+*.csv
+data/*.parquet
+data/*.json
+data/cache/
+data/raw/
+data/processed/
+
+# Python environments
+.venv/
+venv/
+env/
+ENV/
+
+# Conda environments and metadata
+environment.yml
+environment.yaml
+conda-meta/
+.conda/
+
+# Python artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+
+# IDEs
+.vscode/
+.idea/
+
+# Experiment tracking
+.wandb/
+wandb/
+
+# OS files
+.DS_Store
+Thumbs.db

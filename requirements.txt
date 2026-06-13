@@ -1,0 +1,15 @@
+polars
+fsspec
+huggingface-hub
+tqdm
+nltk
+numpy
+pandas
+pyarrow
+scikit-learn
+wandb
+torch
+transformers
+datasets
+sentencepiece
+accelerate
